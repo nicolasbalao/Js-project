@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quizz app</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-question" id="quizz">
+      <p class="question" id="question-display">wich language most used 2020</p>
+      <ul>
+        <li class="answer">
+          <input type="radio"  id="A" name="answer">
+          <label for="A" id="answerA"></label>
+        </li>
+        <li class="answer">
+          <input type="radio" id="B"  name="answer">
+          <label for="B" id="answerB">Javascript</label>
+        </li>
+        <li class="answer">
+          <input type="radio" id="C" name="answer">
+          <label for="C" id="answerC">Java</label>
+        </li>
+        <li class="answer">
+          <input type="radio" id="D" name="answer">
+          <label for="D" id="answerD">Golang</label>
+        </li>
+      </ul>
+      <button class="btn" type="submit" id="btnSubmit">Submit</button>
+    </div>
+    <div class="resume-quiz hidden" id="result">
+      <p class="score">score</p>
+      <p id="score">10/10</p>
+      <button class="btn" id="replay">Replay</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
