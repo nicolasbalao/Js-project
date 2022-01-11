@@ -11,28 +11,32 @@
       <p class="question" id="question-display">wich language most used 2020</p>
       <ul>
         <li class="answer">
-          <input type="radio"  id="A" name="answer">
-          <label for="A" id="answerA"></label>
+          <input type="radio"  id="a" name="answer">
+          <label for="a" id="answerA"></label>
         </li>
         <li class="answer">
-          <input type="radio" id="B"  name="answer">
-          <label for="B" id="answerB">Javascript</label>
+          <input type="radio" id="b"  name="answer">
+          <label for="b" id="answerB">Javascript</label>
         </li>
         <li class="answer">
-          <input type="radio" id="C" name="answer">
-          <label for="C" id="answerC">Java</label>
+          <input type="radio" id="c" name="answer">
+          <label for="c" id="answerC">Java</label>
         </li>
         <li class="answer">
-          <input type="radio" id="D" name="answer">
-          <label for="D" id="answerD">Golang</label>
+          <input type="radio" id="d" name="answer">
+          <label for="d" id="answerD">Golang</label>
         </li>
       </ul>
       <button class="btn" type="submit" id="btnSubmit">Submit</button>
     </div>
-    <div class="resume-quiz hidden" id="result">
-      <p class="score">score</p>
-      <p id="score">10/10</p>
-      <button class="btn" id="replay">Replay</button>
+    <div class="resume-quiz-hidden" id="result">
+      <div class="score-display">
+        <p class="score">score</p>
+        <p id="score">10/10</p>
+        <button class="btn" id="replay">Replay</button>
+      </div>
+      <div class="resume-correction" id="card-container">
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
